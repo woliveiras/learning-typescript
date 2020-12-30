@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "lib": ["ES2015"],
+        "module": "commonjs",
+        "outDir": "build",
+        "sourceMap": true,
+        "strict": true,
+        "target": "ES2015"
+    },
+    "include": [
+        "packages"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
