@@ -2,7 +2,7 @@
   "name": "@learnin-typescript/hello-world",
   "scripts": {
     "tsc": "tsc",
-    "start": "node lib/index",
+    "start": "yarn tsc && node lib/index",
     "test": "echo \"Error: run tests from root\" && exit 1"
   }
 }
