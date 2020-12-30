@@ -1,12 +1,22 @@
 # learning-typescript
 
-## Description
+## Descrição
 
-This is a experience repository.
+Este é um repositório experimental pessoal para aprendizado do TypeScript.
 
-I use this to archive my TypeScript studies, exercises and POC's.
+## Tecnologias
 
-## Running
+- Lerna.js
+- Yarn e Yarn Workspaces
+- TypeScript
+- Express
+- React.js
+- Storybook
 
-Install Lerna globaly in your system following this link: [lerna.js](https://lerna.js.org/).
+## Como executar
 
+Baixe o repositório e em seguida instale as dependências com o comando 'yarn install'.
+
+Para compilar o código, execute: 'lerna run tsc'.
+
+Para rodar o código, execute: 'lerna run start'.
