@@ -1,0 +1,8 @@
+{
+  "name": "@learnin-typescript/functions",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "yarn tsc && node lib/index",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
