@@ -1,0 +1,9 @@
+{
+  "name": "@learnin-typescript/building",
+  "scripts": {
+    "prestart": "yarn build",
+    "build": "tsc",
+    "start": "node lib/index",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
